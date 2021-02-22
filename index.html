@@ -81,7 +81,7 @@
   <br>
     <input id="night_day" type="button" value="night" onclick="
       if(document.querySelector('#night_day').value === 'night'){
-        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.backgroundColor = 'gray';
         document.querySelector('body').style.color = 'white';
         document.querySelector('#night_day').value = 'day';
       } else {
@@ -93,7 +93,7 @@
     <input type="button" value="night" onclick="
    var target = document.querySelector('body');
    if(this.value === 'night'){
-     target.style.backgroundColor = 'black';
+     target.style.backgroundColor = 'gray';
      target.style.color = 'white';
      this.value = 'day';
    } else {
